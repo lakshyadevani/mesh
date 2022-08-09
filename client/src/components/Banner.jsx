@@ -54,7 +54,7 @@ const Banner = () => {
                 Click here to know the Research going on in the Institute!
             </Button> */}
             <But>
-            <CustomColor/>
+            {/* <CustomColor/> */}
             </But>
             <Imag src={url} alt="logo" />
             {/* <SubHeading>Diversify Knowledge!</SubHeading> */}
