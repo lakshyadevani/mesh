@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 export const getData = async () =>{
-    const URL = 'http://localhost:8000';
+    const URL = 'http://';
     try{
         console.log('hello');
         return await axios.get(`${URL}/articles`);
