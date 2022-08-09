@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 export const getData = async () =>{
-    const URL = 'https://meshbackendiitjammu.herokuapp.com/';
+    const URL = 'https://meshbackendiitjammu.herokuapp.com';
     try{
         console.log('hello');
         return await axios.get(`${URL}/articles`);
