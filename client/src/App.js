@@ -10,6 +10,7 @@ import Articles from './components/Articles';
 import Example from './components/Footer'
 import Banner from './components/Banner';
 import CustomColor from './components/CustomButton';
+import Register from './pages/Register';
 
 const Container = styled(Box)(({ theme }) => ({
   width: '59%',
@@ -25,16 +26,17 @@ const Container = styled(Box)(({ theme }) => ({
 
 function App() {
   return (
-    <Box>
-      <Header/>
-      <Banner/>
-      {/* <CustomColor/> */}
-      <Container >
-        <InfoHeader/>
-        <Articles/>
-      </Container>
-      <Example/>
-    </Box>
+    // <Box>
+    //   <Header/>
+    //   <Banner/>
+    //   {/* <CustomColor/> */}
+    //   <Container >
+    //     <InfoHeader/>
+    //     <Articles/>
+    //   </Container>
+    //   <Example/>
+    // </Box>
+    <Register/>
   );
 }
 
